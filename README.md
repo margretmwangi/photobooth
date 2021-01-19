@@ -1,8 +1,8 @@
 # PhotoBooth
 
-#### By **Mwangi Margaret
+#### By ** Mwangi Margaret
 ## Description
-This  is a broswer Booth that capture one's moments and can also download the photos ans also clear photos in the booth
+This  is a broswer Booth that capture one's moments and can also download the photos and also clear photos in the booth
 ## Setup/Installation Requirements
 * Clone the Repo and checkout into the project folder.
 * git clone https://github.com/margretmwangi/photobooth.git  && cd photobooth
