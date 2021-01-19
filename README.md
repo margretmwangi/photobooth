@@ -2,7 +2,7 @@
 
 #### By ** Mwangi Margaret
 ## Description
-This  is a broswer Booth that capture one's moments and can also download the photos and also clear photos in the booth
+ It is an app that will access a device’s camera, record the video stream, add a background, and allow the user to take a screenshot and download it. The background manipulation is still a work in progress but as of now, I have been able to implement the video stream, screenshot, and download functionality.
 ## Setup/Installation Requirements
 * Clone the Repo and checkout into the project folder.
 * git clone https://github.com/margretmwangi/photobooth.git  && cd photobooth
