@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHOTO BOOTH</title>
+    <link rel="stylesheet" href="main.css" media="screen" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <script src="video.js"></script>
+  </head>
+  <body>
+    <style>
+      h1 {
+        font-family: "Satisfy", cursive;
+        text-align: center;
+      }
+      h3 {
+        font-family: "Kaushan Script", cursive;
+        font-family: "Satisfy", cursive;
+      }
+    </style>
+    <h1>Photobooth App</h1>
+    <div class="container">
+      <video autoplay></video>
+      <p id="prompt1">Please Capture Video To Get Started</p>
+      <div>
+        <h3>Capture Your Moments</h3>
+        <button class="capture">Capture video</button>
+        <button id="screenshot" disabled>Screenshot</button>
+        <button class="download" disabled>Download</button>
+        <label for="select"> Format </label>
+        <select id="select" onchange="onFormatChange()">
+          <option value=".png">PNG</option>
+          <option value=".jpeg">JPEG</option>
+          <option value=".jpg">JPG</option>
+          <option value=".tiff">TIFF</option>
+        </select>
+        <button id="clear" onclick="clearAll()" disabled>Clear All</button>
+      </div>
+      <div class="imgContainer">
+        <p id="prompt2">Click 'Screenshot' to take a picture.</p>
+        <img src="" />
+      </div>
+    </div>
+  </body>
+</html>
